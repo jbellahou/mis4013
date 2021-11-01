@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/projecto/sharedproject/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/projecto/
+    - /bin/cp -R sharedproject $DEPLOYPATH
